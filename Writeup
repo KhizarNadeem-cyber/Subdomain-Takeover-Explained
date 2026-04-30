@@ -1,0 +1,28 @@
+🔍 TryHackMe TakeOver Writeup
+
+The TakeOver room introduces one of the most interesting web vulnerabilities: Subdomain Takeover.
+
+💡 What is Subdomain Takeover?
+
+Subdomain takeover occurs when a subdomain is pointing to a service that is no longer active or configured properly.
+
+For example:
+
+blog.example.com → points to GitHub Pages
+But GitHub repo is deleted ❌
+
+Now an attacker can:
+
+Create a repo with same name
+Take control of the subdomain ✅
+⚠️ Why This is Dangerous
+Attackers can host phishing pages
+Can steal user data
+Can damage company reputation
+🧪 Key Concept Learned
+DNS misconfiguration = security risk
+Always remove unused services
+Monitor subdomains regularly
+🧠 Final Thoughts
+
+This room is beginner-friendly but teaches a real-world vulnerability that many companies still face.
